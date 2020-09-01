@@ -2,16 +2,17 @@
 layout: post
 title: Cyclomatic Complexity
 ---
-Cyclomatic complexity is a software metric used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code.
+*Cyclomatic complexity* is a software metric used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code.
 Cyclomatic complexity is computed using the control flow graph of the program: the nodes of the graph correspond to indivisible groups of commands of a program, and a directed edge connects two nodes if the second command might be executed immediately after the first command. Cyclomatic complexity may also be applied to individual functions, modules, methods or classes within a program.
 (https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 # V(G) = E(dges) - N(odes) + 2
 
-CC  Code  Test  Maintain
-1-10  Clear & well constructed  High  Low
-10-20 Complex Middle  Middle
-20-30 Very Complex  Low High
->30 Unreadable  Untestable  Very High
+| CC       | Code                     | Test      | Maintain |
+|..........|..........................|...........|..........|
+| 1-10     | Clear & well constructed | High      | Low      |
+| 10-20    | Complex                  | Middle    | Middle   |
+| 20-30    | Very Complex             | Low       | High     |
+| >30      | Unreadable               | Untestable| Very High|
 
 # Solutions
 1. Factoring functions: put a block of codes into a function
