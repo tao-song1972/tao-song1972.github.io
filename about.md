@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a Senior Dynamics 365 Developer and like coding with vary languages.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+This blog will be a placeholder for my study notes in coding.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[tsong@trilliumsystems.net](mailto:tsong@trilliumsystems.net)
