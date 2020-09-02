@@ -3,10 +3,10 @@ layout: post
 title: Create CRM Unlicensed (Non-Interactive) User
 ---
 
-#Non-Interactive User
+# Non-Interactive User
 The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Microsoft Dynamics 365 between applications. Creating a non-interactive user account lets these applications or tools, such as a Dynamics 365 to ERP connector, authenticate and access Dynamics 365 (online), without requiring a Dynamics 365 (online) license.
 
-#How to Create
+# How to Create
 1. Go to Office 365 Admin Center (via Dynamics 365 online Apps panel, or https://portal.office365.com)
 2. Users => Active users => Add a user
 3. Manage Group of the user. Add the user to the Group for the Dynamics 365.
