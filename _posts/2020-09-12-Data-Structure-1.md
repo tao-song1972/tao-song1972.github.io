@@ -2,7 +2,7 @@
 layout: post
 title: 数据结构（1）
 ---
-# 数据结构（Data Structor）
+# 数据结构（Data Structure）
 
 数据结构 = 结构定义 + 结构操作
 
